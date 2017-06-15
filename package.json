@@ -1,0 +1,31 @@
+{
+  "name": "gitbook-plugin-tableau",
+  "version": "1.0.0",
+  "description": "A Gitbook plugin for embedding public Tableau visualizations using the Tableau Javascript API",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=3.2.2"
+  },
+  "scripts": {
+    "build-js": "gitbook-plugin build ./src/index.js ./_assets/plugin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bstaats@github.com/bstaats/gitbook-plugin-tableau.git"
+  },
+  "keywords": [
+    "tableau",
+    "gitbook-plugin",
+    "gitbook",
+    "visualization"
+  ],
+  "author": "Brian Staats <brian.staats@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bstaats/gitbook-plugin-tableau/issues"
+  },
+  "homepage": "https://github.com/bstaats/gitbook-plugin-tableau#readme",
+  "devDependencies": {
+    "gitbook-plugin": "0.0.2"
+  }
+}

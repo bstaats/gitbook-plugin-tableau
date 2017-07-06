@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-tableau",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Gitbook plugin for embedding public Tableau visualizations using the Tableau Javascript API",
   "main": "index.js",
   "engines": {
